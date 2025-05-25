@@ -1561,7 +1561,7 @@ const AboutUs = () => {
     {
       name: "Dr. Kamalani Wanigasinghe",
       role: "External Supervisor",
-      image: "/images/external-supervisor.jpg",
+      image: "https://himara1027.github.io/website/images/external-supervisor.jpg",
       department: "Information Systems",
       email: "kamalani@external.edu",
       linkedin: "http://linkedin.com/in/kamalani-wanigasinghe-0b7a0a131",
@@ -1571,7 +1571,7 @@ const AboutUs = () => {
     {
       name: "Kumarasinghe D.P",
       role: "IT21296314",
-      image: "/images/dilshi.jpg",
+      image: "https://himara1027.github.io/website/images/dilshi.jpg",
       bio: "Team Leader",
       email: "it21296314@my.sliit.lk",
       github: "https://github.com/it21296314/EnlightenDS",
