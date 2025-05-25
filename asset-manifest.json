@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/himara1027/website.git/static/css/main.ab0a1d3d.css",
+    "main.js": "/himara1027/website.git/static/js/main.1121dbdc.js",
+    "static/media/aut.jpg": "/himara1027/website.git/static/media/aut.12480a625ba3f95b8ac3.jpg",
+    "static/media/w14.jpg": "/himara1027/website.git/static/media/w14.aca57549cee8ade9cbc6.jpg",
+    "static/media/f1.jpg": "/himara1027/website.git/static/media/f1.959623e8549c976496d8.jpg",
+    "static/media/dot2.png": "/himara1027/website.git/static/media/dot2.1569e1c00e4aa0d7b33e.png",
+    "index.html": "/himara1027/website.git/index.html",
+    "main.ab0a1d3d.css.map": "/himara1027/website.git/static/css/main.ab0a1d3d.css.map",
+    "main.1121dbdc.js.map": "/himara1027/website.git/static/js/main.1121dbdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab0a1d3d.css",
+    "static/js/main.1121dbdc.js"
+  ]
+}
