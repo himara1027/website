@@ -504,20 +504,20 @@ const Domain = () => {
     {
       title: "Research Problem",
       icon: "❓",
-      content: "The main objective is developing a comprehensive platform to transform care and skill development for children with Down syndrome. Sub-objectives include predicting developmental milestones through advanced models, implementing adaptive learning systems for personalized education, generating customized therapy plans with innovative algorithms, and implementing monitoring solutions for real-time progress tracking. The goals focus on improving outcomes, enhancing quality of life, and pioneering data-driven child development.",
+      content:"<p>The research problem centers on the need for timely, accurate diagnosis and personalized intervention for children with Down syndrome (DS). Despite medical progress, DS diagnosis often relies on delayed or limited methods and children face ongoing challenges in speech, cognition and learning. Current tools lack integration, personalization and accessibility.<br/><br/>This study aims to develop a unified web-based system that leverages machine learning, image processing and adaptive learning to address four core issues: <br/>(1) Early DS detection using AI-enhanced imaging<br/>(2) Speech and Language development through interactive NLP-driven therapy<br/>(3) Talent identification across drawing, motor and cognitive domains<br/>(4) Adaptive math skill development. The solution targets improved developmental outcomes, educational inclusion and long-term support through accessible, engaging technologies tailored to the unique needs of children with DS.</p>",
       image: "https://himara1027.github.io/website/images/do.png" // Replace with your actual image path
     },
     {
       title: "Research Objectives",
       icon: "🎯",
-      content: "Core objectives involve enhancing accessibility to specialized Down syndrome intervention tools, developing localized applications capturing unique developmental patterns, improving early skill recognition through advanced assessment techniques, addressing gaps in personalized learning approaches, absence of comprehensive talent discovery protocols and lack of real-time progress monitoring systems - ultimately empowering families and jeopardizing optimal development potential dependent on innovative technological solutions.",
-      image: "https://himara1027.github.io/website/images/research-objectives.jpg" // Replace with your actual image path
+      content: "The proposed system aims to deliver a comprehensive developmental support platform for children with Down syndrome integrating early detection, speech enhancement, mathematical skill-building and artistic talent identification. By combining intelligent assessment tools with personalized interventions, the system will not only foster each child’s cognitive and creative growth but also offer tailored guidance to parents and educators. It will include performance metrics to evaluate the effectiveness of interventions ensuring continuous improvement and impact. Ultimately, the goal is to holistically empower children with Down syndrome to reach their fullest potential across multiple domains of development.",
+      image: "https://himara1027.github.io/website/images/full.png" // Replace with your actual image path
     },
      {
       title: "Technologies",
       icon: "💻",
-      content: "Core objectives involve enhancing accessibility to specialized Down syndrome intervention tools, developing localized applications capturing unique developmental patterns, improving early skill recognition through advanced assessment techniques, addressing gaps in personalized learning approaches, absence of comprehensive talent discovery protocols and lack of real-time progress monitoring systems - ultimately empowering families and jeopardizing optimal development potential dependent on innovative technological solutions.",
-      image: "https://himara1027.github.io/website/images/research-objectives.jpg" // Replace with your actual image path
+      // content: "Core objectives involve enhancing accessibility to specialized Down syndrome intervention tools, developing localized applications capturing unique developmental patterns, improving early skill recognition through advanced assessment techniques, addressing gaps in personalized learning approaches, absence of comprehensive talent discovery protocols and lack of real-time progress monitoring systems - ultimately empowering families and jeopardizing optimal development potential dependent on innovative technological solutions.",
+      image: "https://himara1027.github.io/website/images/technologies.jpg" // Replace with your actual image path
     }
   ];
   
@@ -1016,34 +1016,34 @@ const VerticalTimeline = () => {
   const milestones = [
     {
       id: 1,
-      date: "August 16th 2024",
-      title: "Project Proposal",
+      date: "14th of August 2024",
+      title: "Proposal presentation ",
       description: "Presented to a panel of judges in order to provide an overview of the proposed research.",
-      marks: "5%",
+      marks: "6%",
       icon: "📋",
       color: "yellow"
     },
     {
       id: 2,
-      date: "December 06th 2024",
+      date: "6th of December 2024",
       title: "Progress Presentation - 1",
       description: "Evaluation of 50% completion of the proposed solution by a panel of judges.",
-      marks: "10%",
+      marks: "15%",
       icon: "📊",
       color: "dark-blue"
     },
     {
       id: 3,
-      date: "March 20th 2025",
-      title: "Research Paper",
-      description: "Evaluation of 90% completion of the proposed solution by a panel of judges.",
-      marks: "18%",
+      date: "20th of March 2025",
+      title: "Research Paper Submission",
+      description: "Evaluation of research paper ",
+      // marks: "10%",
       icon: "📄",
       color: "yellow"
     },
     {
       id: 4,
-      date: "March 20th 2025",
+      date: "20th of March 2025",
       title: "Progress Presentation - 2",
       description: "Evaluation of 90% completion of the proposed solution by a panel of judges.",
       marks: "18%",
@@ -1051,8 +1051,8 @@ const VerticalTimeline = () => {
       color: "dark-blue"
     },
     {
-      id: 5,
-      date: "June 02nd 2025",
+      id: 6,
+      date: "28th of May 2025",
       title: "Website Assessment",
       description: "Final evaluation of the website implementation and functionality.",
       marks: "25%",
@@ -1060,20 +1060,20 @@ const VerticalTimeline = () => {
       color: "yellow"
     },
     {
-      id: 6,
-      date: "May 28th 2025",
+      id: 7,
+      date: "28th of May 2025",
       title: "Final Assessment & Viva",
       description: "Final evaluation of the completed product and comprehensive assessment.",
-      marks: "25%",
+      marks: "20%",
       icon: "🎯",
       color: "dark-blue"
     },
     {
-      id: 7,
-      date: "April 11th 2025",
+      id: 5,
+      date: "11th of April 2025",
       title: "Final Report Submission",
       description: "Final project submission and completion of all requirements.",
-      marks: "27%",
+      // marks: "27%",
       icon: "📝",
       color: "yellow"
     },
@@ -1254,8 +1254,8 @@ const Documents = () => {
       isExpandable: true,
       hideDownload: true
     },
-    { title: "Status Document - 1", id: "status1", fileUrl: "https://himara1027.github.io/website/documents/status-document-1.pdf" },
-    { title: "Status Document - 2", id: "status2", fileUrl: "https://himara1027.github.io/website/documents/status-document-2.pdf" },
+    { title: "Status Document - 1", id: "status1", fileUrl: "https://himara1027.github.io/website/documents/Checklist_1.pdf" },
+    { title: "Status Document - 2", id: "status2", fileUrl: "https://himara1027.github.io/website/documents/EnlightenDS_CheckList2.xlsx" },
     {
       title: "Final Report",
       id: "finalReport",
