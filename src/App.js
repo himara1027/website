@@ -50,7 +50,7 @@ const Header = () => {
         <div className="header-content">
           <div className="logo-section">
             <img 
-              src="./images/logo.png" 
+              src="https://himara1027.github.io/website/images/logo.png" 
               alt="EnlightenDS Logo" 
               className="logo-image"
             />
@@ -373,7 +373,7 @@ const Home = () => {
       <div className="hero-image-wrapper">
         <div className="hero-image-container">
           <img
-            src="/images/full.png"
+            src="https://himara1027.github.io/website/images/full.png"
             alt="Child with Down syndrome using technology"
             className="hero-image"
           />
@@ -493,31 +493,31 @@ const Domain = () => {
       title: "Literature Survey",
       icon: "📚",
       content: "Recent research on Down syndrome (DS) combines AI, adaptive learning and assistive technologies to support early detection and personalized intervention. Deep learning models like CNNs and BPNNs have shown promise in non-invasive DS screening through ultrasound image analysis using features like nuchal translucency and nasal bone detection.For speech and language development, AAC tools such as PECS, SGDs and Makaton along with machine learning based feedback systems and wearable devices help improve articulation and vocabulary. In numeracy, programs like Kumon, Numicon and The Number Race use visual aids and adaptive quizzes to enhance math skills.However, talent identification in DS children remains limited. Studies explore fine motor skills and adaptive assessments but lack integrated systems. The proposed EnlightenDS platform addresses this by combining AI-based detection, pronunciation feedback and skill tracking to support learning and recognize individual strengths.",
-      image: "/images/li.png" // Replace with your actual image path
+      image: "https://himara1027.github.io/website/images/li.png" // Replace with your actual image path
     },
     {
       title: "Research Gap",
       icon: "🔍",
       content: "Existing research on early Down syndrome (DS) detection using deep learning models like CNNs and BPNNs has shown promise but remains limited in scope and accessibility. Key gaps include basic image segmentation without fine feature extraction, lack of robust classifiers like SVM, absence of web-based deployment and failure to address gender bias in diagnostic outcomes. Additionally, many studies provide only binary outputs without confidence metrics. In contrast, EnlightenDS integrates advanced image analysis, SVMs, gender neutral models, and probability-based results through an accessible web platform. It also bridges educational gaps by introducing adaptive learning, gamified speech therapy and talent identification features addressing both clinical and developmental needs in a unified system.",
-      image: "/images/d.png" // Replace with your actual image path
+      image: "https://himara1027.github.io/website/images/d.png" // Replace with your actual image path
     },
     {
       title: "Research Problem",
       icon: "❓",
       content: "The main objective is developing a comprehensive platform to transform care and skill development for children with Down syndrome. Sub-objectives include predicting developmental milestones through advanced models, implementing adaptive learning systems for personalized education, generating customized therapy plans with innovative algorithms, and implementing monitoring solutions for real-time progress tracking. The goals focus on improving outcomes, enhancing quality of life, and pioneering data-driven child development.",
-      image: "/images/do.png" // Replace with your actual image path
+      image: "https://himara1027.github.io/website/images/do.png" // Replace with your actual image path
     },
     {
       title: "Research Objectives",
       icon: "🎯",
       content: "Core objectives involve enhancing accessibility to specialized Down syndrome intervention tools, developing localized applications capturing unique developmental patterns, improving early skill recognition through advanced assessment techniques, addressing gaps in personalized learning approaches, absence of comprehensive talent discovery protocols and lack of real-time progress monitoring systems - ultimately empowering families and jeopardizing optimal development potential dependent on innovative technological solutions.",
-      image: "/images/research-objectives.jpg" // Replace with your actual image path
+      image: "https://himara1027.github.io/website/images/research-objectives.jpg" // Replace with your actual image path
     },
      {
       title: "Technologies",
       icon: "💻",
       content: "Core objectives involve enhancing accessibility to specialized Down syndrome intervention tools, developing localized applications capturing unique developmental patterns, improving early skill recognition through advanced assessment techniques, addressing gaps in personalized learning approaches, absence of comprehensive talent discovery protocols and lack of real-time progress monitoring systems - ultimately empowering families and jeopardizing optimal development potential dependent on innovative technological solutions.",
-      image: "/images/research-objectives.jpg" // Replace with your actual image path
+      image: "https://himara1027.github.io/website/images/research-objectives.jpg" // Replace with your actual image path
     }
   ];
   
@@ -1582,7 +1582,7 @@ const AboutUs = () => {
     {
       name: "Jayasuriya S.H",
       role: "IT21293030", 
-      image: "/images/senuri.png",
+      image: "https://himara1027.github.io/website/images/senuri.png",
       bio: "Team Member",
       email: "it21293030@my.sliit.lk",
       github: "https://github.com/it21296314/EnlightenDS",
@@ -1593,7 +1593,7 @@ const AboutUs = () => {
     {
       name: "Semini B.V.S",
       role: "IT21342394",
-      image: "/images/save.png", 
+      image: "https://himara1027.github.io/website/images/save.png", 
       bio: "Team Member",
       email: "it21342394@my.sliit.lk",
       github: "https://github.com/it21296314/EnlightenDS",
@@ -1604,7 +1604,7 @@ const AboutUs = () => {
     {
       name: "Methsahani K.K.S.P",
       role: "IT21292972",
-      image: "/images/sadee.jpg",
+      image: "https://himara1027.github.io/website/images/sadee.jpg",
       bio: "Team Member", 
       email: "it21292972@my.sliit.lk",
       github: "https://github.com/it21296314/EnlightenDS",
