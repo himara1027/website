@@ -1246,20 +1246,20 @@ const Documents = () => {
 
   // Main documents list
   const documents = [
-    { title: "TAF", id: "charter", fileUrl: "/documents/TAF_24_25J_228.pdf" },
+    { title: "TAF", id: "charter", fileUrl: "https://himara1027.github.io/website/documents/TAF_24_25J_228.pdf" },
     { 
       title: "Proposal Document", 
       id: "proposal", 
-      fileUrl: "/documents/proposal-document.pdf",
+      fileUrl: "https://himara1027.github.io/website/documents/proposal-document.pdf",
       isExpandable: true,
       hideDownload: true
     },
-    { title: "Status Document - 1", id: "status1", fileUrl: "/documents/status-document-1.pdf" },
-    { title: "Status Document - 2", id: "status2", fileUrl: "/documents/status-document-2.pdf" },
+    { title: "Status Document - 1", id: "status1", fileUrl: "https://himara1027.github.io/website/documents/status-document-1.pdf" },
+    { title: "Status Document - 2", id: "status2", fileUrl: "https://himara1027.github.io/website/documents/status-document-2.pdf" },
     {
       title: "Final Report",
       id: "finalReport",
-      fileUrl: "/documents/final-report.pdf",
+      fileUrl: "https://himara1027.github.io/website/documents/final-report.pdf",
       isExpandable: true,
       hideDownload: true
     }
@@ -1267,18 +1267,18 @@ const Documents = () => {
 
   // Proposal documents that will be shown when expanded
   const proposalDocs = [
-    { title: "IT21296314", fileUrl: "/documents/proposal/24-25J-228 - IT21296314.pdf", icon: "FileText" },
-    { title: "IT21293030", fileUrl: "/documents/proposal/24-25J-228 -IT21293030.pdf", icon: "FileText" },
-    { title: "IT21342394", fileUrl: "/documents/proposal/24-25J-228-IT21342394.pdf", icon: "FileText" },
-    { title: "IT21292972", fileUrl: "/documents/proposal/24-25J-228 - IT21292972.pdf", icon: "FileText" }
+    { title: "IT21296314", fileUrl: "https://himara1027.github.io/website/documents/proposal/24-25J-228 - IT21296314.pdf", icon: "FileText" },
+    { title: "IT21293030", fileUrl: "https://himara1027.github.io/website/documents/proposal/24-25J-228 -IT21293030.pdf", icon: "FileText" },
+    { title: "IT21342394", fileUrl: "https://himara1027.github.io/website/documents/proposal/24-25J-228-IT21342394.pdf", icon: "FileText" },
+    { title: "IT21292972", fileUrl: "https://himara1027.github.io/website/documents/proposal/24-25J-228 - IT21292972.pdf", icon: "FileText" }
   ];
 
   // Final report documents that will be shown when expanded
   const finalReportDocs = [
-    { title: "IT21296314", fileUrl: "/documents/final-report/24-25J-228 - IT21296314 - Individual Report.pdf", icon: "FileText" },
-    { title: "IT21293030", fileUrl: "/documents/final-report/24-25J-228- IT21293030-Individual Report.pdf", icon: "FileText" },
-    { title: "IT21342394", fileUrl: "/documents/final-report/24-25J-228 - IT21342394 - Individual Report.pdf", icon: "FileText" },
-    { title: "IT21292972", fileUrl: "/documents/final-report/24-25J-228_IT21292972 - Individual Report final.pdf", icon: "FileText" }
+    { title: "IT21296314", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228 - IT21296314 - Individual Report.pdf", icon: "FileText" },
+    { title: "IT21293030", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228- IT21293030-Individual Report.pdf", icon: "FileText" },
+    { title: "IT21342394", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228 - IT21342394 - Individual Report.pdf", icon: "FileText" },
+    { title: "IT21292972", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228_IT21292972 - Individual Report final.pdf", icon: "FileText" }
   ];
 
   // Function to handle file downloads
@@ -1441,25 +1441,25 @@ const Slides = () => {
       title: "Proposal Presentation", 
       type: "PowerPoint",
       fileName: "proposal-presentation.pptx",
-      filePath: "documents/slides/24-25J-228-PPT.pptx" // Update with your actual file path
+      filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT.pptx" // Update with your actual file path
     },
     { 
       title: "Progress Presentation -1", 
       type: "PowerPoint",
       fileName: "progress-presentation-1.pptx",
-      filePath: "documents/slides/24-25J-228-PPT-PP1.pptx"
+      filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT-PP1.pptx"
     },
     { 
       title: "Progress Presentation -2", 
       type: "PowerPoint",
       fileName: "progress-presentation-2.pptx",
-      filePath: "documents/slides/24-25J-228-PPT-PP2 (1).pptx"
+      filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT-PP2 (1).pptx"
     },
     { 
       title: "Final Presentation", 
       type: "PowerPoint",
       fileName: "final-presentation.pptx",
-      filePath: "documents/slides/final-presentation.pptx"
+      filePath: "https://himara1027.github.io/website/documents/slides/final-presentation.pptx"
     }
   ];
 
