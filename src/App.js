@@ -493,31 +493,32 @@ const Domain = () => {
       title: "Literature Survey",
       icon: "📚",
       content: "Recent research on Down syndrome (DS) combines AI, adaptive learning and assistive technologies to support early detection and personalized intervention. Deep learning models like CNNs and BPNNs have shown promise in non-invasive DS screening through ultrasound image analysis using features like nuchal translucency and nasal bone detection.For speech and language development, AAC tools such as PECS, SGDs and Makaton along with machine learning based feedback systems and wearable devices help improve articulation and vocabulary. In numeracy, programs like Kumon, Numicon and The Number Race use visual aids and adaptive quizzes to enhance math skills.However, talent identification in DS children remains limited. Studies explore fine motor skills and adaptive assessments but lack integrated systems. The proposed EnlightenDS platform addresses this by combining AI-based detection, pronunciation feedback and skill tracking to support learning and recognize individual strengths.",
-      image: "https://himara1027.github.io/website/images/li.png" // Replace with your actual image path
+      image: "https://himara1027.github.io/website/images/li.png"
     },
     {
       title: "Research Gap",
       icon: "🔍",
-      content: "Existing research on early Down syndrome (DS) detection using deep learning models like CNNs and BPNNs has shown promise but remains limited in scope and accessibility. Key gaps include basic image segmentation without fine feature extraction, lack of robust classifiers like SVM, absence of web-based deployment and failure to address gender bias in diagnostic outcomes. Additionally, many studies provide only binary outputs without confidence metrics. In contrast, EnlightenDS integrates advanced image analysis, SVMs, gender neutral models, and probability-based results through an accessible web platform. It also bridges educational gaps by introducing adaptive learning, gamified speech therapy and talent identification features addressing both clinical and developmental needs in a unified system.",
-      image: "https://himara1027.github.io/website/images/d.png" // Replace with your actual image path
+      content: "Existing research on early Down syndrome (DS) detection using deep learning models like CNNs and BPNNs has shown promise but remains limited in scope and accessibility. Key gaps include basic image segmentation without fine feature extraction, lack of robust classifiers like SVM, absence of web-based deployment and failure to address gender bias in diagnostic outcomes. Additionally, many studies provide only binary outputs without confidence metrics. In contrast, EnlightenDS integrates advanced image analysis, SVMs, gender neutral models, and probability-based results through an accessible web platform. It also bridges educational gaps by introducing adaptive learning, gamified speech therapy and talent identification features addressing both clinical and developmental needs in a unified system.",
+      image: "https://himara1027.github.io/website/images/d.png"
     },
     {
       title: "Research Problem",
       icon: "❓",
-      content:"<p>The research problem centers on the need for timely, accurate diagnosis and personalized intervention for children with Down syndrome (DS). Despite medical progress, DS diagnosis often relies on delayed or limited methods and children face ongoing challenges in speech, cognition and learning. Current tools lack integration, personalization and accessibility.<br/><br/>This study aims to develop a unified web-based system that leverages machine learning, image processing and adaptive learning to address four core issues: <br/>(1) Early DS detection using AI-enhanced imaging<br/>(2) Speech and Language development through interactive NLP-driven therapy<br/>(3) Talent identification across drawing, motor and cognitive domains<br/>(4) Adaptive math skill development. The solution targets improved developmental outcomes, educational inclusion and long-term support through accessible, engaging technologies tailored to the unique needs of children with DS.</p>",
-      image: "https://himara1027.github.io/website/images/do.png" // Replace with your actual image path
+      content: "The research problem centers on the need for timely, accurate diagnosis and personalized intervention for children with Down syndrome (DS). Despite medical progress, DS diagnosis often relies on delayed or limited methods and children face ongoing challenges in speech, cognition and learning. Current tools lack integration, personalization and accessibility. This study aims to develop a unified web-based system that leverages machine learning, image processing and adaptive learning to address four core issues: Early DS detection using AI-enhanced imaging, Speech and Language development through interactive NLP-driven therapy, Talent identification across drawing, motor and cognitive domains, Adaptive math skill development. The solution targets improved developmental outcomes, educational inclusion and long-term support through accessible, engaging technologies tailored to the unique needs of children with DS.",
+      image: "https://himara1027.github.io/website/images/do.png"
     },
     {
       title: "Research Objectives",
       icon: "🎯",
-      content: "The proposed system aims to deliver a comprehensive developmental support platform for children with Down syndrome integrating early detection, speech enhancement, mathematical skill-building and artistic talent identification. By combining intelligent assessment tools with personalized interventions, the system will not only foster each child’s cognitive and creative growth but also offer tailored guidance to parents and educators. It will include performance metrics to evaluate the effectiveness of interventions ensuring continuous improvement and impact. Ultimately, the goal is to holistically empower children with Down syndrome to reach their fullest potential across multiple domains of development.",
-      image: "https://himara1027.github.io/website/images/full.png" // Replace with your actual image path
+      content: "The proposed system aims to deliver a comprehensive developmental support platform for children with Down syndrome integrating early detection, speech enhancement, mathematical skill-building and artistic talent identification. By combining intelligent assessment tools with personalized interventions, the system will not only foster each child's cognitive and creative growth but also offer tailored guidance to parents and educators. It will include performance metrics to evaluate the effectiveness of interventions ensuring continuous improvement and impact. Ultimately, the goal is to holistically empower children with Down syndrome to reach their fullest potential across multiple domains of development.",
+      image: "https://himara1027.github.io/website/images/full.png"
     },
-     {
+    {
       title: "Technologies",
       icon: "💻",
-      // content: "Core objectives involve enhancing accessibility to specialized Down syndrome intervention tools, developing localized applications capturing unique developmental patterns, improving early skill recognition through advanced assessment techniques, addressing gaps in personalized learning approaches, absence of comprehensive talent discovery protocols and lack of real-time progress monitoring systems - ultimately empowering families and jeopardizing optimal development potential dependent on innovative technological solutions.",
-      image: "https://himara1027.github.io/website/images/technologies.jpg" // Replace with your actual image path
+      content: "", // Empty content, only image will be shown
+      image: "https://himara1027.github.io/website/images/technologies.jpg",
+      isImageOnly: true
     }
   ];
   
@@ -525,284 +526,327 @@ const Domain = () => {
     setExpandedCard(expandedCard === index ? null : index);
   };
 
-  return (
-    <section id="domain" className="domain-section">
-    <div className="container">
-      <div className="section-header">
-        <h2 className="section-title">Our Domain</h2>
-      </div>
-      
-      <div className="domain-cards-container">
-        {domains.map((domain, index) => (
-          <div 
-            key={index} 
-            className={`domain-card ${expandedCard === index ? 'expanded' : ''}`}
-          >
-            <div className="domain-card-wrapper">
-              <div className="domain-card-content-wrapper">
-                <div className="domain-card-header">
-                  <div className="domain-card-icon">{domain.icon}</div>
-                  <h3 className="domain-card-title">{domain.title}</h3>
-                  <div className="domain-card-spacer"></div>
-                  <button 
-                    className="domain-card-btn"
-                    onClick={() => toggleCard(index)}
-                  >
-                    {expandedCard === index ? 'Show Less' : 'Learn More'}
-                  </button>
-                </div>
-                
-                {expandedCard === index && (
-                  <>
-                    <div className="domain-card-divider"></div>
-                    
-                    <div className="domain-card-body">
-                      <div className="domain-card-text">
-                        <p className="domain-card-content">{domain.content}</p>
-                      </div>
-                      
-                      <div className="domain-card-image">
-                        <img src={domain.image} alt={domain.title} />
-                      </div>
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-    
-    <style jsx>{`
-      /* Domain Section Styles */
-      .domain-section {
-        padding: 4rem 0;
-        background-color: #f8f9fa;
-      }
-      
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 1.5rem;
-      }
-      
-      .section-header {
-        text-align: center;
-        margin-bottom: 3rem;
-      }
-      
-      .section-title {
-        font-size: 2.5rem;
-        color: var(--primary-blue, #0062cc);
-        margin-bottom: 1rem;
-      }
-      
-      .section-divider {
-        height: 4px;
-        width: 60px;
-        background: linear-gradient(90deg, var(--primary-blue, #0062cc), var(--secondary-yellow, #ffc107));
-        margin: 0 auto;
-      }
-      
-      /* Vertical Domain Cards */
-      .domain-cards-container {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        margin: 0 auto;
-        max-width: 900px;
-      }
-      
-      .domain-card {
-        background-color: #fff;
-        border-radius: 12px;
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-        overflow: hidden;
-        transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
-        position: relative;
-        border: 1px solid rgba(0, 0, 0, 0.05);
-        border-left: 5px solid var(--blue-primary);
-      }
-      
-      .domain-card::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        width: 4px;
-        height: 100%;
-        background: linear-gradient(180deg, var(--primary-blue, #0062cc), var(--secondary-yellow, #ffc107));
-        transform: scaleY(0);
-        transform-origin: top;
-        transition: transform 0.5s ease;
-      }
-      
-      .domain-card:hover::after,
-      .domain-card.expanded::after {
-        transform: scaleY(1);
-      }
-      
-      .domain-card-wrapper {
-        padding: 1rem 1.5rem;
-      }
-      
-      .domain-card-header {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        gap: 1rem;
-      }
-      
-      .domain-card-icon {
-        font-size: 1.5rem;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        flex-shrink: 0;
-      }
-      
-      .domain-card-title {
-        font-size: 1.25rem;
-        font-weight: 600;
-        color: var(--primary-blue, #0062cc);
-        margin: 0;
-        transition: color 0.3s ease;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      
-      .domain-card-spacer {
-        flex-grow: 1;
-      }
-      
-      .domain-card:hover .domain-card-title,
-      .domain-card.expanded .domain-card-title {
-        color: var(--secondary-yellow, #ffc107);
-      }
-      
-      .domain-card-divider {
-        width: 100%;
-        height: 1px;
-        background: #e9ecef;
-        margin: 1rem 0;
-        transition: background 0.3s ease;
-      }
-      
-      .domain-card:hover .domain-card-divider,
-      .domain-card.expanded .domain-card-divider {
-        background: linear-gradient(90deg, var(--primary-blue, #0062cc), var(--secondary-yellow, #ffc107));
-      }
-      
-      .domain-card-body {
-        display: flex;
-        flex-direction: row;
-        gap: 1.5rem;
-        margin: 1rem 0;
-      }
-      
-      .domain-card-text {
-        flex: 1;
-      }
-      
-      .domain-card-content {
-        color: #6c757d;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0;
-      }
-      
-      .domain-card-image {
-        flex: 1;
-        max-width: 300px;
-        height: auto;
-        border-radius: 8px;
-        overflow: hidden;
-      }
-      
-      .domain-card-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.5s ease;
-      }
-      
-      .domain-card:hover .domain-card-image img {
-        transform: scale(1.05);
-      }
-      
-      .domain-card-btn{
-  padding: 1rem 2rem;
-  background: rgb(2, 34, 108);
-  color: white;
-  border: none;
-  border-radius: var(--border-radius);
 
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+
+  return (
+    <>
+      <section id="domain" className="domain-section">
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">Our Domain</h2>
+          </div>
+          
+          <div className="domain-cards-container">
+            {domains.map((domain, index) => (
+              <div 
+                key={index} 
+                className={`domain-card ${expandedCard === index ? 'expanded' : ''}`}
+              >
+                <div className="domain-card-wrapper">
+                  <div className="domain-card-content-wrapper">
+                    <div className="domain-card-header">
+                      <div className="domain-card-icon">{domain.icon}</div>
+                      <h3 className="domain-card-title">{domain.title}</h3>
+                      <div className="domain-card-spacer"></div>
+                      <button 
+                        className="domain-card-btn"
+                        onClick={() => toggleCard(index)}
+                      >
+                        {expandedCard === index ? 'Show Less' : 'Learn More'}
+                      </button>
+                    </div>
+                    
+                    {expandedCard === index && (
+                      <>
+                        <div className="domain-card-divider"></div>
+                        
+                        <div className="domain-card-body">
+                          {domain.isImageOnly ? (
+                            <div className="domain-card-image-full">
+                              <img src={domain.image} alt={domain.title} />
+                            </div>
+                          ) : (
+                            <>
+                              <div className="domain-card-text">
+                                <p className="domain-card-content">{domain.content}</p>
+                              </div>
+                              
+                              <div className="domain-card-image">
+                                <img src={domain.image} alt={domain.title} />
+                              </div>
+                            </>
+                          )}
+                        </div>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Remove the full screen modal since we're using inline expansion now */}
       
-      .domain-card-btn:hover {
-        background: rgb(0, 57, 190);
-        color: white;
-        border-color: transparent;
-      }
-      
-      /* Entrance Animation */
-      .domain-card {
-        animation: slideInFromLeft 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-        opacity: 0;
-      }
-      
-      .domain-card:nth-child(1) { animation-delay: 0.1s; }
-      .domain-card:nth-child(2) { animation-delay: 0.2s; }
-      .domain-card:nth-child(3) { animation-delay: 0.3s; }
-      .domain-card:nth-child(4) { animation-delay: 0.4s; }
-      
-      @keyframes slideInFromLeft {
-        from {
-          opacity: 0;
-          transform: translateX(-30px);
+      <style jsx>{`
+        /* Domain Section Styles */
+        .domain-section {
+          padding: 4rem 0;
+          background-color: #f8f9fa;
         }
-        to {
-          opacity: 1;
-          transform: translateX(0);
+        
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 1.5rem;
         }
-      }
-      
-      /* Responsive Styles */
-      @media (max-width: 768px) {
-        .domain-card-body {
+        
+        .section-header {
+          text-align: center;
+          margin-bottom: 3rem;
+        }
+        
+        .section-title {
+          font-size: 2.5rem;
+          color: var(--primary-blue, #0062cc);
+          margin-bottom: 1rem;
+        }
+        
+        .section-divider {
+          height: 4px;
+          width: 60px;
+          background: linear-gradient(90deg, var(--primary-blue, #0062cc), var(--secondary-yellow, #ffc107));
+          margin: 0 auto;
+        }
+        
+        /* Vertical Domain Cards */
+        .domain-cards-container {
+          display: flex;
           flex-direction: column;
+          gap: 1rem;
+          margin: 0 auto;
+          max-width: 900px;
+        }
+        
+        .domain-card {
+          background-color: #fff;
+          border-radius: 12px;
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+          overflow: hidden;
+          transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+          position: relative;
+          border: 1px solid rgba(0, 0, 0, 0.05);
+          border-left: 5px solid var(--blue-primary);
+        }
+        
+        .domain-card::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          width: 4px;
+          height: 100%;
+          background: linear-gradient(180deg, var(--primary-blue, #0062cc), var(--secondary-yellow, #ffc107));
+          transform: scaleY(0);
+          transform-origin: top;
+          transition: transform 0.5s ease;
+        }
+        
+        .domain-card:hover::after,
+        .domain-card.expanded::after {
+          transform: scaleY(1);
+        }
+        
+        .domain-card-wrapper {
+          padding: 1rem 1.5rem;
+        }
+        
+        .domain-card-header {
+          display: flex;
+          align-items: center;
+          width: 100%;
           gap: 1rem;
         }
         
-        .domain-card-image {
-          max-width: 100%;
-        }
-      }
-      
-      @media (max-width: 480px) {
-        .domain-card-header {
-          gap: 0.5rem;
-          flex-wrap: wrap;
+        .domain-card-icon {
+          font-size: 1.5rem;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          flex-shrink: 0;
         }
         
         .domain-card-title {
+          font-size: 1.25rem;
+          font-weight: 600;
+          color: var(--primary-blue, #0062cc);
+          margin: 0;
+          transition: color 0.3s ease;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        
+        .domain-card-spacer {
+          flex-grow: 1;
+        }
+        
+        .domain-card:hover .domain-card-title,
+        .domain-card.expanded .domain-card-title {
+          color: var(--secondary-yellow, #ffc107);
+        }
+        
+        .domain-card-divider {
+          width: 100%;
+          height: 1px;
+          background: #e9ecef;
+          margin: 1rem 0;
+          transition: background 0.3s ease;
+        }
+        
+        .domain-card:hover .domain-card-divider,
+        .domain-card.expanded .domain-card-divider {
+          background: linear-gradient(90deg, var(--primary-blue, #0062cc), var(--secondary-yellow, #ffc107));
+        }
+        
+        .domain-card-body {
+          display: flex;
+          flex-direction: row;
+          gap: 1.5rem;
+          margin: 1rem 0;
+        }
+        
+        .domain-card-text {
           flex: 1;
         }
         
-        .domain-card-btn {
-          margin-top: 0.5rem;
-          width: 100%;
-          text-align: center;
+        .domain-card-content {
+          color: #6c757d;
+          font-size: 1rem;
+          line-height: 1.5;
+          margin: 0;
         }
-      }
-    `}</style>
-  </section>
+        
+        .domain-card-image {
+          flex: 1;
+          max-width: 300px;
+          height: auto;
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        
+        .domain-card-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+        
+        .domain-card:hover .domain-card-image img {
+          transform: scale(1.05);
+        }
+        
+        .domain-card-btn {
+          padding: 1rem 2rem;
+          background: rgb(2, 34, 108);
+          color: white;
+          border: none;
+          border-radius: var(--border-radius);
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+        
+        .domain-card-btn:hover {
+          background: rgb(0, 57, 190);
+          color: white;
+          border-color: transparent;
+        }
+
+        .domain-card-image-full {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+          overflow: hidden;
+          margin: 1rem 0;
+        }
+        
+        .domain-card-image-full img {
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+          transition: transform 0.5s ease;
+        }
+        
+        .domain-card:hover .domain-card-image-full img {
+          transform: scale(1.02);
+        }
+        
+        /* Entrance Animation */
+        .domain-card {
+          animation: slideInFromLeft 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+          opacity: 0;
+        }
+        
+        .domain-card:nth-child(1) { animation-delay: 0.1s; }
+        .domain-card:nth-child(2) { animation-delay: 0.2s; }
+        .domain-card:nth-child(3) { animation-delay: 0.3s; }
+        .domain-card:nth-child(4) { animation-delay: 0.4s; }
+        .domain-card:nth-child(5) { animation-delay: 0.5s; }
+        
+        @keyframes slideInFromLeft {
+          from {
+            opacity: 0;
+            transform: translateX(-30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+          .domain-card-body {
+            flex-direction: column;
+            gap: 1rem;
+          }
+          
+          .domain-card-image {
+            max-width: 100%;
+          }
+
+          .close-button {
+            font-size: 2rem;
+            top: -40px;
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .domain-card-header {
+            gap: 0.5rem;
+            flex-wrap: wrap;
+          }
+          
+          .domain-card-title {
+            flex: 1;
+          }
+          
+          .domain-card-btn {
+            margin-top: 0.5rem;
+            width: 100%;
+            text-align: center;
+          }
+
+          .close-button {
+            font-size: 1.5rem;
+            top: -30px;
+          }
+        }
+      `}</style>
+    </>
   );
 };
 
@@ -1049,13 +1093,23 @@ const VerticalTimeline = () => {
       marks: "18%",
       icon: "⚙️",
       color: "dark-blue"
+
+    },
+     {
+      id: 5,
+      date: "11th of April 2025",
+      title: "Final Report Submission",
+      description: "Final project submission and completion of all requirements.",
+      // marks: "27%",
+      icon: "📝",
+      color: "yellow"
     },
     {
       id: 6,
       date: "28th of May 2025",
       title: "Website Assessment",
       description: "Final evaluation of the website implementation and functionality.",
-      marks: "25%",
+      marks: "2%",
       icon: "💻",
       color: "yellow"
     },
@@ -1068,15 +1122,7 @@ const VerticalTimeline = () => {
       icon: "🎯",
       color: "dark-blue"
     },
-    {
-      id: 5,
-      date: "11th of April 2025",
-      title: "Final Report Submission",
-      description: "Final project submission and completion of all requirements.",
-      // marks: "27%",
-      icon: "📝",
-      color: "yellow"
-    },
+   
   ];
 
   // Calculate current progress based on dates
@@ -1540,7 +1586,7 @@ const AboutUs = () => {
     {
       name: "Prof. Samantha Thelijjagoda",
       role: "Supervisor",
-      image: "images/supervisor.jpg",
+      image: "https://himara1027.github.io/website/images/supervisor.jpg",
       department: "Computer Science",
       email: "samantha.t@sliit.lk",
       linkedin: "http://linkedin.com/in/samantha-thelijjagoda-84342037",
@@ -1550,7 +1596,7 @@ const AboutUs = () => {
     {
       name: "Dr. Junius Anjana",
       role: "Co-supervisor",
-      image: "images/co-supervisor.jpg",
+      image: "https://himara1027.github.io/website/images/co-supervisor.jpg",
       department: "Software Engineering", 
       email: "junius.a@sliit.lk",
       linkedin: "http://linkedin.com/in/vidanaralage",
