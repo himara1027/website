@@ -1308,7 +1308,8 @@ const Documents = () => {
       fileUrl: "https://himara1027.github.io/website/documents/final-report.pdf",
       isExpandable: true,
       hideDownload: true
-    }
+    },
+    { title: "Research Paper", id: "rese2", fileUrl: "https://himara1027.github.io/website/documents/1040_Advanced Technologies for Skill Enhancement and Talent Recognition in Children with Down Syndr" },
   ];
 
   // Proposal documents that will be shown when expanded
@@ -1321,6 +1322,7 @@ const Documents = () => {
 
   // Final report documents that will be shown when expanded
   const finalReportDocs = [
+    { title: "Group Report", fileUrl: "https://himara1027.github.io/website/documents/24-25J-228 - Group Report", icon: "FileText" },
     { title: "IT21296314", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228 - IT21296314 - Individual Report.pdf", icon: "FileText" },
     { title: "IT21293030", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228- IT21293030-Individual Report.pdf", icon: "FileText" },
     { title: "IT21342394", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228 - IT21342394 - Individual Report.pdf", icon: "FileText" },
@@ -1490,13 +1492,13 @@ const Slides = () => {
       filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT.pptx" // Update with your actual file path
     },
     { 
-      title: "Progress Presentation -1", 
+      title: "Progress Presentation 1", 
       type: "PowerPoint",
       fileName: "progress-presentation-1.pptx",
       filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT-PP1.pptx"
     },
     { 
-      title: "Progress Presentation -2", 
+      title: "Progress Presentation 2", 
       type: "PowerPoint",
       fileName: "progress-presentation-2.pptx",
       filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT-PP2 (1).pptx"
@@ -1505,7 +1507,7 @@ const Slides = () => {
       title: "Final Presentation", 
       type: "PowerPoint",
       fileName: "final-presentation.pptx",
-      filePath: "https://himara1027.github.io/website/documents/slides/final-presentation.pptx"
+      filePath: "https://himara1027.github.io/website/documents/slides/24-25J-228-PPT-FinalViva.pptx"
     }
   ];
 
