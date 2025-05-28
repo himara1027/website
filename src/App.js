@@ -1081,7 +1081,7 @@ const VerticalTimeline = () => {
       date: "20th of March 2025",
       title: "Research Paper Submission",
       description: "Evaluation of research paper ",
-      // marks: "10%",
+      marks: "10%",
       icon: "📄",
       color: "yellow"
     },
