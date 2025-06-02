@@ -1300,8 +1300,8 @@ const Documents = () => {
       isExpandable: true,
       hideDownload: true
     },
-    { title: "Status Document - 1", id: "status1", fileUrl: "https://himara1027.github.io/website/documents/Checklist_1.pdf" },
-    { title: "Status Document - 2", id: "status2", fileUrl: "https://himara1027.github.io/website/documents/EnlightenDS_CheckList2.xlsx" },
+    { title: "Check list-1", id: "status1", fileUrl: "https://himara1027.github.io/website/documents/Checklist_1.pdf" },
+    { title: "Check list-2", id: "status2", fileUrl: "https://himara1027.github.io/website/documents/EnlightenDS_CheckList2.xlsx" },
     {
       title: "Final Report",
       id: "finalReport",
@@ -1309,7 +1309,7 @@ const Documents = () => {
       isExpandable: true,
       hideDownload: true
     },
-    { title: "Research Paper", id: "rese2", fileUrl: "https://himara1027.github.io/website/documents/1040_Advanced Technologies for Skill Enhancement and Talent Recognition in Children with Down Syndr" },
+    { title: "Research Paper", id: "rese2", fileUrl: "https://himara1027.github.io/website/documents/researchpaper.pdf" },
   ];
 
   // Proposal documents that will be shown when expanded
@@ -1322,7 +1322,7 @@ const Documents = () => {
 
   // Final report documents that will be shown when expanded
   const finalReportDocs = [
-    { title: "Group Report", fileUrl: "https://himara1027.github.io/website/documents/24-25J-228 - Group Report", icon: "FileText" },
+    { title: "Group Report", fileUrl: "https://himara1027.github.io/website/documents/24-25J-228 - Group Report.pdf", icon: "FileText" },
     { title: "IT21296314", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228 - IT21296314 - Individual Report.pdf", icon: "FileText" },
     { title: "IT21293030", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228- IT21293030-Individual Report.pdf", icon: "FileText" },
     { title: "IT21342394", fileUrl: "https://himara1027.github.io/website/documents/final-report/24-25J-228 - IT21342394 - Individual Report.pdf", icon: "FileText" },
@@ -1589,7 +1589,7 @@ const AboutUs = () => {
       name: "Prof. Samantha Thelijjagoda",
       role: "Supervisor",
       image: "https://himara1027.github.io/website/images/supervisor.jpg",
-      department: "Computer Science",
+    
       email: "samantha.t@sliit.lk",
       linkedin: "http://linkedin.com/in/samantha-thelijjagoda-84342037",
       profile: "http://linkedin.com/in/samantha-thelijjagoda-84342037",
@@ -1599,7 +1599,7 @@ const AboutUs = () => {
       name: "Dr. Junius Anjana",
       role: "Co-supervisor",
       image: "https://himara1027.github.io/website/images/co-supervisor.jpg",
-      department: "Software Engineering", 
+      
       email: "junius.a@sliit.lk",
       linkedin: "http://linkedin.com/in/vidanaralage",
       profile: "http://linkedin.com/in/vidanaralage",
@@ -1610,7 +1610,7 @@ const AboutUs = () => {
       name: "Dr. Kamalani Wanigasinghe",
       role: "External Supervisor",
       image: "https://himara1027.github.io/website/images/external-supervisor.jpg",
-      department: "Information Systems",
+     
       email: "kamalani@external.edu",
       linkedin: "http://linkedin.com/in/kamalani-wanigasinghe-0b7a0a131",
       profile: "http://linkedin.com/in/kamalani-wanigasinghe-0b7a0a131",
